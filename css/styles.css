@@ -1,4 +1,19 @@
 body {
-	text-align: left;
-	background-color:#999999;
+	padding: 0;
+	margin: 0;
+}
+header {
+	height: 80px;
+	background: url(../images/first.jpg)repeat;
+}
+#first {
+	height: 800px;
+	background: url(../images/first.jpg)no-repeat center top / cover;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+#topmenu {
+	float: left;
 }
