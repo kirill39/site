@@ -1,20 +1,31 @@
 body {
-	padding: 0;
-	margin: 0;
+	padding: 0;      /* внешние границы отступа */
+	margin: 0;       /* внутренние границы отступа */
 }
 header {
-	height: 80px;
-	padding: 10px 0;
+	width: 100%;     /* ширина */
+	height: 110px;   /* высота */
+	padding: 5px 0;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-	background: url(../images/first.jpg)no-repeat;
-}
-#first {
-	height: 800px;
-	background: url(../images/first.jpg)no-repeat center top / cover;
+	background: #000;
+	background-size: cover;
 }
 .container {
 	width: 1170px;
 	margin: 0 auto;
+}
+h1 {
+	font-size: 18px;
+	text-align: left;
+	color: white;
+}
+.logo {
+	font-size: 15px;
+	text-align: left;
+	color: white;
+}
+.logo span {
+	color: #ffb400;
 }
 #topmenu {
 	align-items: center;
@@ -28,27 +39,28 @@ header {
 	border-right: 1px solid rgba(255, 255, 255, 0.1);
 	display: block;
     font-family: "Open Sans", sans-serif;
-	color: #fff;
+	color: #ffbe11;
 	padding: 0px 20px;
 	height: 70px;
-	line-height: 50px;
+	line-height: 70px;
 	text-decoration: none;
 }
 #topmenu a:last-child {
 	border-left: none;
 }
 #topmenu a:hover {
-	background: #5e5e5e;
+	background: #ffb400;
 }
-h1 {
-	font-size: 19px;
-	text-align: left;
+#first {
+	height: 1000px;
+	background: url(../images/first.jpg)no-repeat center top / cover;
 }
 h2 {
 	font-size: 26px;
 	text-transform: uppercase;
 	text-align: center;
 	padding-top: 460px;
+	margin-top: 0px;
 }
 .button {
 	background: #ffb400;
@@ -68,4 +80,21 @@ h2 {
 .button:hover {
 	background: #ffbe11;
 	box-shadow: 0px 0px 0px 4px #ffbe11;
+}
+.button:active {
+	background: #ffa200;
+	box-shadow: 0px 0px 0px 4px #ffa200;
+}
+footer {
+	background: #000;
+	color: #acacac;
+	padding: 50px 0px;
+}
+footer.logo {
+	margin-left: 0px;
+	margin-right: 283px;
+}
+.credits {
+	font-size: 14px;
+	float: left;
 }
